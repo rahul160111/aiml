@@ -5,4 +5,5 @@ print (x)
 
 y = s[ ::-1]
 print (y)
-
+ 
+ 
