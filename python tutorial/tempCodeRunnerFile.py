@@ -1,2 +1,1 @@
-print(l)
-# print(type(l))
+",n*x)

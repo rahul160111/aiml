@@ -1,3 +1,6 @@
+from os import remove
+
+
 l =[10,20,30,40,50,"apple"]
 j =[ 60 , 70 , 80 , 90 , 100]
 
@@ -7,36 +10,35 @@ print (j.count(30))
 l.append(40)
 print(l)
 
-# at particular index number 
+#at particular index number 
 l.insert(2, 100)
 print(l)
  
-
-#  remove any object from list
+#remove any object from list
 l.pop()
 print(l)
 
-# particular object 
+#particular object 
 l.remove(50)
 l.remove("apple")
 print(l)
 
-# empty
+#empty
 l.reverse()
 print(l)
 l.sort(reverse=True)
 print(l)
 
-# reverse 
+#reverse 
 l.reverse()
 print(l)
   
-#  sort method
+#sort method
 l.sort()
 print(l)
 l.sort(reverse=True)
 print(l) 
 
-# extend method 
+#extend method 
 j. extend(l)
 print(l)
