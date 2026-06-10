@@ -1,2 +1,4 @@
-L =  (i for i in  range (-20,20)if i%2==o)
-print(tuple(L))
+t = set([1,2,3,4,5,6,7,8,9,])
+# print(t)
+# t=[6] = 50 
+# print(t)
