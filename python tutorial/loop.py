@@ -17,8 +17,14 @@
 #     print(n,"x",x, "=",n*x)
 #     x+=1 
 
-n =[10,]
-if n ==0 or n==1:
-    printf(f"{n}is prime")
-    printf(f"{n}is not prime")
+# n =[10,]
+# if n ==0 or n==1:
+#     printf(f"{n}is prime")
+#     printf(f"{n}is not prime")
            
+x = 0
+
+while x<11:
+    if x%2==1:
+        print(x)
+    x+=1
