@@ -6,7 +6,10 @@ dict = { "name": "Rahul",
         }
 
 
-update_dict = {"age":22,
-               "city":"Ahmdabad",}
-m = dict | update_dict
-print(m)
+# update_dict = {"age":22,
+#                "city":"Ahmdabad",}
+# m = dict | update_dict
+# print(m)
+ 
+dict.update = {"age": "22","city": "Ahmdabad," }
+print (dict)

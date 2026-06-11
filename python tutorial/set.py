@@ -14,12 +14,12 @@ print(f)
 s = s.union(t)
 print(s)
 
-l = s.difference(t)
-print(l)
+# l = s.difference(t)
+# print(l)
 
 
-o = t.difference(s)
-print(o)
+# o = t.difference(s)
+# print(o)
 # s.add(100)
 # print(s)    
 
