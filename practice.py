@@ -50,4 +50,39 @@ def aoc(r):
 print(aoc(2))
 
 
+x = 'rahul, mitesh ,mehul '
+c = x.istitle()
+h = x.islower()
+j = x.isupper()
 
+print(c)
+print(h)
+print(j)
+
+
+x = 'rahul'
+f = x.strip ()
+print(f)
+
+x = 'silver qak unoversity '
+f = x.find('era')
+print(f)
+ 
+x = ' silver qak university '
+f = x.rfind('v')
+print(f) 
+
+x = 'bhuvik , hanraj , mehul '
+r = x.replace('mehul','purve ')
+print(r)
+
+#String method count
+x = 'rahul'
+f = x.isalnum()
+print(f)
+
+# isalnum , isnumeric 
+
+x = '3.5,5.8'
+f = x.isdecimal()
+print(f)
