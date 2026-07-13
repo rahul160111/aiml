@@ -20,11 +20,18 @@
 # l[1]= 30.11 
 # print(l)
 
-dict={"name":"alice",
-      "age":30,
-      "city":"new york",
-      2: [ "reading","traveling","cooking"],
-      "is_student":False,
-      "address":{"street":"123 main st","zip":"1001"},
-      "phone_number":("123-456-789","123-456-789")}
+# dict={"name":"alice",
+#       "age":30,
+#       "city":"new york",
+#       2: [ "reading","traveling","cooking"],
+#       "is_student":False,
+#       "address":{"street":"123 main st","zip":"1001"},
+#       "phone_number":("123-456-789","123-456-789")}
 
+l=[10,20,40,50,60]
+print(l)
+print(l[1])
+print(type(l))
+ 
+x=l[:]
+print(x)
